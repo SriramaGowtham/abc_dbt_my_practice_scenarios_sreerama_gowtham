@@ -1,6 +1,6 @@
 {{
     config(
-        alias = 'v_stg_customers_view'
+        alias = 'vw_stg_customers'
     )
 }}
 
