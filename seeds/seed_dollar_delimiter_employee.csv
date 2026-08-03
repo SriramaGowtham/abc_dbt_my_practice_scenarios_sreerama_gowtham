@@ -1,0 +1,5 @@
+emp_id$emp_name$department$country$salary
+101$"""John"""$IT$"""India"""$75000
+102$"""Alice"""$HR$"""United States"""$65000
+103$"""Bob"""$Finance$"""United Kingdom"""$80000
+104$"""David"""$Sales$"""Australia"""$70000

@@ -40,3 +40,20 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+seeds:
+  my_new_project:
+    seed_quoted_columns:
+      +quote_columns: true
+      +delimiter: "|"
+      +column_types:
+        "country code": varchar(20)
+        "country name": varchar(20)
+    seed_dollar_delimiter_employee:
+      +delimiter: "$"
+      +column_types:
+        emp_id: number
+        emp_name: varchar
+        department: varchar
+        country: varchar
+        salary: number
+
