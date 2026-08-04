@@ -74,3 +74,15 @@ sources:
               - not_null
       - name: sales
         description: "Raw sales master table."
+
+  - name: raw_gold
+    description: "Raw source tables in gold schema."
+    database: SNOWFLAKE_DBT
+    schema: GOLD
+
+    tables:
+      - name: employee
+        description: "Employee master table."
+
+      - name: emp_sales
+        description: "Sales related to the employee"
