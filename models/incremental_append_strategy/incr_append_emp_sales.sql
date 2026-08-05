@@ -51,5 +51,5 @@ from deduped
 
 {% if is_incremental() %}
     -- Only bring in new sales since the last run from the source table
-    where sale_date > (select max(sale_date) from {{ this }})
+    where sale_date > (select coalesce(max(sale_date),'1900-01-01') from {{ this }})
 {% endif %}
