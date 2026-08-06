@@ -56,4 +56,6 @@ seeds:
         department: varchar
         country: varchar
         salary: number
+vars:
+  incremental_lookback_hours: 24
 

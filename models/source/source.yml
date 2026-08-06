@@ -76,10 +76,22 @@ sources:
         description: "Raw sales master table."
 
       - name: customer
-        description: "This customer table is creaed to implement merge strategy of incremental materialization"
+        description: "This customer table is created to implement merge strategy of incremental materialization"
 
       - name: marketing
-        description: "This marketing table is creaed to implement merge strategy of incremental materialization"
+        description: "This marketing table is created to implement merge strategy of incremental materialization"
+
+      - name: stg_customer
+        description: "This stg_customer table is created to implement merge strategy of incremental materialization"
+
+      - name: stg_marketing
+        description: "This stg_marketing table is created to implement merge strategy of incremental materialization"
+
+      - name: VEHICLES
+        description: "This VEHICLES table is created to implement delete+insert strategy of incremental materialization"
+
+      - name: MANUFACTURING_COMPANIES
+        description: "This MANUFACTURING_COMPANIES table is created to implement delete+insert strategy of incremental materialization"
 
   - name: raw_gold
     description: "Raw source tables in gold schema."
