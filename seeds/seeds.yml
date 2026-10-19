@@ -1,0 +1,20 @@
+version: 2
+
+seeds:
+  - name: seed_countries_quoted_columns_with_quoted_values_with_dollar_delimiter
+    config:
+      quote_columns: true
+      delimiter: "$"
+      column_types:
+        "Country Code": varchar
+        "Country Name": varchar
+        "Country Capital": varchar
+  - name: seed_dollar_delimiter_with_quotes_column_space
+    config:
+      delimiter: "$"
+      quote_columns: true
+      column_types:
+        "Employee ID": number
+        "Employee Name": varchar
+        "Department Name": varchar
+        "Country Name": varchar
