@@ -96,6 +96,9 @@ sources:
       - name: CUSTOMERS_CIBIL_SCORE
         description: "Cibil_Score related to the Customers"
 
+      - name: ecommerce_orders
+        description: "currency conversions related to the currency"
+
   - name: raw_gold
     description: "Raw source tables in gold schema."
     database: SNOWFLAKE_DBT
