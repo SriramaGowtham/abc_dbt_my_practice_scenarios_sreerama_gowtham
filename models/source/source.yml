@@ -93,6 +93,9 @@ sources:
       - name: MANUFACTURING_COMPANIES
         description: "This MANUFACTURING_COMPANIES table is created to implement delete+insert strategy of incremental materialization"
 
+      - name: CUSTOMERS_CIBIL_SCORE
+        description: "Cibil_Score related to the Customers"
+
   - name: raw_gold
     description: "Raw source tables in gold schema."
     database: SNOWFLAKE_DBT
@@ -104,3 +107,6 @@ sources:
 
       - name: emp_sales
         description: "Sales related to the employee"
+
+
+    
